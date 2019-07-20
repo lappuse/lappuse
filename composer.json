@@ -1,0 +1,26 @@
+{
+    "name": "lappuse/lappuse",
+    "description": "The Lappuse Tower Platform.",
+    "keywords": ["tower", "platform", "lappuse"],
+    "license": "MIT",
+    "type": "project",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../../lappuse/*",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
+    "require": {
+        "lappuse/tower": "dev-master"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
